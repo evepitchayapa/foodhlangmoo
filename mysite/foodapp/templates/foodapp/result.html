@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ผลลัพธ์จากการค้นหา</title>
+</head>
+<body>
+<fieldset>
+        <h1>ผลลัพธ์การค้นหา "{{key}}" : {{count}} การค้นหา</h1> <br>
+        {% for item in lstname %}
+            <fieldset>
+                <h2>
+                    <a href="{% url 'foodapp:search' %}">{{item}}
+                    </a>
+                    <br>
+                </h2>
+
+            </fieldset>
+        {% endfor %}
+</fieldset>
+</body>
+</html>

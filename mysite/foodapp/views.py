@@ -16,7 +16,7 @@ def Create (request):
     return render(request,'foodapp/review_page.html',context)
 
 def add_review(request):
-    restaurant = Restaurants.objects.all()
+
 
     topic = str(request.POST['topic'])
     point = int(request.POST['point'])
@@ -30,4 +30,13 @@ def add_review(request):
 
     return render(request,'foodapp/showreview.html',context)
 
+def search_res(request):
+    return render(request,'foodapp/search.html')
+
+def result (request):
+    keyword = (request.POST['search'])
+    r = Restaurants.objects.filter(name_text__startswith = keyword)
+    count = len(r)
+    context = {'lstname':r,'count':count,'key':keyword}
+    return  render(request,'foodapp/result.html',context)
 

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ค้นหาร้านอาหารจากชื่อ</title>
+</head>
+<body>
+ <form action="{% url 'foodapp:result' %}" method="post" >
+    {% csrf_token %}
+
+<fieldset>
+    <center><H1><legend>ค้นหาร้านอาหาร</legend></H1></center>
+    <center>
+        <h2>ป้อนชื่อร้านที่นี่ :
+            <input type="text" name="search" size="120" maxlength="200" />
+            <input type="submit" value="Submit" >
+        <br/>
+        </h2>
+    </center>
+</fieldset>
+
+</form>
+</body>
+</html>
