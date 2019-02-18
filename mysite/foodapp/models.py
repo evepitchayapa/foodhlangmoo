@@ -14,12 +14,13 @@ class Restaurants(models.Model):
 
 
 
-class Detail_res(models.Model):
+class Review(models.Model):
     restaurant = models.ForeignKey(Restaurants, on_delete = models.CASCADE)
-    topic_review = models.CharField(max_length = 120,default= '')
+    summary_review = models.CharField(max_length = 120, default='')
     point = models.IntegerField(default = 0)
     review_text = models.CharField(max_length = 300)
+    date_review = models.DateTimeField('date published')
 
 
     def __str__(self):
-        return self.topic_review
+        return self.summary_review

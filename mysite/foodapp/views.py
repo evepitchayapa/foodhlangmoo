@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-from .models import Restaurants,Detail_res
+from .models import Restaurants,Review,timezone
 from django.shortcuts import render,get_object_or_404
 
 # Create your views here.
@@ -19,11 +19,9 @@ def add_review(request):
     topic = str(request.POST['topic'])
     point = int(request.POST['point'])
     review_detail = str(request.POST['review_detail'])
-
     name = Restaurants.objects.get(pk=1)
-
-    review = name.detail_res_set.create(topic_review = topic,point =point,review_text = review_detail)
-
+    review = name.review_set.create(summary_review = topic,point =point,review_text = review_detail,date_review = timezone.now())
+    review.save()
     context = {'name' : name,'review':review}
 
     return render(request,'foodapp/showreview.html',context)
