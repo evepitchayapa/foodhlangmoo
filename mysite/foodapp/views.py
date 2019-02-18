@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Restaurants,Detail_res
 from django.shortcuts import render,get_object_or_404
@@ -8,7 +7,7 @@ from django.shortcuts import render,get_object_or_404
 def index (request):
     return render(request,'foodapp/homepage.html')
 
-def Create (request):
+def create_review (request):
 
     name = str(Restaurants.objects.get(pk=1))
     context = {'name':name}
@@ -16,7 +15,6 @@ def Create (request):
     return render(request,'foodapp/review_page.html',context)
 
 def add_review(request):
-
 
     topic = str(request.POST['topic'])
     point = int(request.POST['point'])
