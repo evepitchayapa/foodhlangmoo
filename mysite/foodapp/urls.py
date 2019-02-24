@@ -8,7 +8,7 @@ urlpatterns = [
     path('success',views.add_review,name = 'add'),
     path('search',views.search_res,name = 'search'),
     path('result',views.result,name = 'result'),
-    # path('restaunts/<int:pk>/', views. name='detail'),
+    path('restaurants/<int:res_id>/', views.show_restaurants ,name='show_res'),
 
     #path('', views.index, name='index'),
 

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{res.name_text}}</title>
+</head>
+<body>
+
+<h1>{{res.name_text}}</h1>
+    <h2>หมวดหมู่ : {{res.category}}</h2>
+    <h2>วิธีการเดินทาง : {{res.route}}</h2>
+    <h2>รีวิวจาเพื่อนๆ</h2>
+
+        <fieldset>
+            <h1>{{lstreview.get(pk=1).summary_review}}</h1> <br>
+            <h3>หมวดหมู่:{{res.category}} <br>
+                {{lstreview.get(pk=1).point}} คะแนน
+            </h3>
+            <br>
+            <h2>{{lstreview.get(pk=1).review_text}}</h2>
+        </fieldset>
+
+
+
+</body>
+</html>
