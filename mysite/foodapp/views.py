@@ -7,19 +7,19 @@ from django.shortcuts import render,get_object_or_404,Http404
 def index (request):
     return render(request,'foodapp/homepage.html')
 
-def create_review (request):
-    name = str(Restaurants.objects.get(pk=1))
-    context = {'name':name}
+def create_review (request,res_id):
+    name = str(Restaurants.objects.get(pk=res_id))
+    context = {'name':name,'id':res_id}
     return render(request,'foodapp/review_page.html',context)
 
-def add_review(request):
+def add_review(request,res_id):
     topic = str(request.POST['topic'])
     point = int(request.POST['point'])
     review_detail = str(request.POST['review_detail'])
-    name = Restaurants.objects.get(pk=1)
+    name = Restaurants.objects.get(pk=res_id)
     review = name.review_set.create(summary_review = topic,point =point,review_text = review_detail,date_review = timezone.now())
     review.save()
-    context = {'name' : name,'review':review}
+    context = {'name' : name,'review':review,'id':res_id}
     return render(request,'foodapp/showreview.html',context)
 
 def search_res(request):
@@ -46,10 +46,12 @@ def category_a(request):
     a = Restaurants.objects.filter(category__startswith = 'อ')
     context = {'a': a}
     return render(request,'foodapp/a_la_cart.html',context)
+
 def category_s(request):
     s = Restaurants.objects.filter(category__startswith  = 'ส')
     context = {'s':s}
     return render(request,'foodapp/street_food.html',context)
+
 def category_c(request):
     c = Restaurants.objects.filter(category__startswith  = 'ค')
     context = {'c':c}

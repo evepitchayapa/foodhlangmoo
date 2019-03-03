@@ -7,6 +7,7 @@
 <body>
 
 <center><h1>{{res.name_text}}  </h1></center>
+ <a href="/restaurant/{{res.id}}/create_review"> สร้างรีวิวใหม่ที่นี่ </a>
     <h2><li>หมวดหมู่ : {{res.category}}</li><br>
         <li>วิธีการเดินทาง : {{res.route}}</li><br>
         <li>รีวิวจากเพื่อนๆ</li></h2>
@@ -22,6 +23,8 @@
 
         </fieldset>
     {% endfor %}
+
+    <center><h2><a href="/">กลับหน้าแรก</a> </h2></center>
 
 
 </body>

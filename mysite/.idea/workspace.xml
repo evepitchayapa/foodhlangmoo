@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee6ffc95-6b43-4295-bb2f-7c669400a4a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mysite.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodapp/templates/foodapp/a_la_cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/foodapp/templates/foodapp/a_la_cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodapp/templates/foodapp/cafe.html" beforeDir="false" afterPath="$PROJECT_DIR$/foodapp/templates/foodapp/cafe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodapp/templates/foodapp/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/foodapp/templates/foodapp/category.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foodapp/templates/foodapp/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/foodapp/templates/foodapp/homepage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foodapp/templates/foodapp/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/foodapp/templates/foodapp/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodapp/templates/foodapp/review_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/foodapp/templates/foodapp/review_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodapp/templates/foodapp/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/foodapp/templates/foodapp/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foodapp/templates/foodapp/show_restaurant.html" beforeDir="false" afterPath="$PROJECT_DIR$/foodapp/templates/foodapp/show_restaurant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodapp/templates/foodapp/showreview.html" beforeDir="false" afterPath="$PROJECT_DIR$/foodapp/templates/foodapp/showreview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodapp/templates/foodapp/street_food.html" beforeDir="false" afterPath="$PROJECT_DIR$/foodapp/templates/foodapp/street_food.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foodapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foodapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodapp/views.py" afterDir="false" />
     </list>
@@ -34,39 +36,39 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="10" />
-          <entry key="py" value="4" />
+          <entry key="html" value="13" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="10" />
-          <entry key="Python" value="4" />
+          <entry key="HTML" value="13" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="892" />
-          <entry key="py" value="1568" />
+          <entry key="html" value="1211" />
+          <entry key="py" value="1698" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="892" />
-          <entry key="Python" value="1568" />
+          <entry key="HTML" value="1211" />
+          <entry key="Python" value="1698" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4461679">
+    <splitter split-orientation="horizontal" split-proportion="0.5276476">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/result.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="18" selection-end-column="20" />
+                <state relative-caret-position="323">
+                  <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
                 </state>
               </provider>
             </entry>
@@ -74,8 +76,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/foodapp/urls.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="65" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="65" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
                   <folding>
                     <element signature="e#0#28#0" expanded="true" />
                   </folding>
@@ -84,10 +86,33 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/foodapp/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+                  <folding>
+                    <element signature="e#0#36#0" expanded="true" />
+                    <marker date="1551630104298" expanded="true" signature="1522:1527" ph="..." />
+                    <marker date="1551630104298" expanded="true" signature="1608:1753" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/search.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/category.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="47" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="47" />
+                <state relative-caret-position="255">
+                  <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
                 </state>
               </provider>
             </entry>
@@ -104,11 +129,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/a_la_cart.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+                <state relative-caret-position="408">
+                  <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
                 </state>
               </provider>
             </entry>
@@ -118,24 +143,10 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/foodapp/views.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="494">
-                  <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-                  <folding>
-                    <element signature="e#0#36#0" expanded="true" />
-                    <marker date="1551620395285" expanded="true" signature="1474:1479" ph="..." />
-                    <marker date="1551620395285" expanded="true" signature="1560:1705" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/street_food.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+                <state relative-caret-position="408">
+                  <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
                 </state>
               </provider>
             </entry>
@@ -143,8 +154,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/cafe.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+                <state relative-caret-position="408">
+                  <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
                 </state>
               </provider>
             </entry>
@@ -152,8 +163,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/show_restaurant.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+                <state relative-caret-position="442">
+                  <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="58" />
                 </state>
               </provider>
             </entry>
@@ -161,8 +172,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/homepage.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="44" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="44" />
+                <state relative-caret-position="238">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/showreview.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" column="79" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="79" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/review_page.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -184,23 +213,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/foodapp/templates/foodapp/result.html" />
-        <option value="$PROJECT_DIR$/foodapp/templates/foodapp/show_restaurant.html" />
         <option value="$PROJECT_DIR$/foodapp/templates/foodapp/catagory.html" />
-        <option value="$PROJECT_DIR$/foodapp/templates/foodapp/homepage.html" />
         <option value="$PROJECT_DIR$/foodapp/urls.py" />
-        <option value="$PROJECT_DIR$/foodapp/templates/foodapp/category.html" />
-        <option value="$PROJECT_DIR$/foodapp/templates/foodapp/a_la_cart.html" />
+        <option value="$PROJECT_DIR$/foodapp/templates/foodapp/review_page.html" />
         <option value="$PROJECT_DIR$/foodapp/views.py" />
+        <option value="$PROJECT_DIR$/foodapp/templates/foodapp/showreview.html" />
+        <option value="$PROJECT_DIR$/foodapp/templates/foodapp/homepage.html" />
+        <option value="$PROJECT_DIR$/foodapp/templates/foodapp/show_restaurant.html" />
+        <option value="$PROJECT_DIR$/foodapp/templates/foodapp/a_la_cart.html" />
         <option value="$PROJECT_DIR$/foodapp/templates/foodapp/cafe.html" />
         <option value="$PROJECT_DIR$/foodapp/templates/foodapp/street_food.html" />
+        <option value="$PROJECT_DIR$/foodapp/templates/foodapp/category.html" />
+        <option value="$PROJECT_DIR$/foodapp/templates/foodapp/search.html" />
+        <option value="$PROJECT_DIR$/foodapp/templates/foodapp/result.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="512" />
-    <option name="width" value="1417" />
-    <option name="height" value="1038" />
+    <option name="x" value="-10" />
+    <option name="width" value="1850" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -265,10 +297,9 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="410" y="0" width="1133" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="1480" height="832" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19497687" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14345114" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -304,13 +335,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foodapp/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -321,67 +345,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/show_restaurant.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foodapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="65" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="65" />
+        <state relative-caret-position="119">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/category.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="47" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/a_la_cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/cafe.html">
+    <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/street_food.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/foodapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        <state relative-caret-position="119">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
-            <marker date="1551620395285" expanded="true" signature="1474:1479" ph="..." />
-            <marker date="1551620395285" expanded="true" signature="1560:1705" ph="..." />
+            <marker date="1551630104298" expanded="true" signature="1522:1527" ph="..." />
+            <marker date="1551630104298" expanded="true" signature="1608:1753" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/a_la_cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/cafe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/review_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/show_restaurant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/showreview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="79" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodapp/templates/foodapp/street_food.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
         </state>
       </provider>
     </entry>

@@ -5,7 +5,7 @@
     <title>Create Review</title>
 </head>
 <body>
-<form action="{% url 'foodapp:add' %}" method="post" >
+<form action="/restaurant/{{ id }}/create_review/success" method="post" >
     {% csrf_token %}
 
 <fieldset>
@@ -17,6 +17,7 @@
 <fieldset>
 <legend><h2>Detail</h2></legend>
 <h3>
+    {{id}}
 Point  :
     <input type="radio" name="point" value="5" />  5 point
     <input type="radio" name="point" value="4" />  4 point
