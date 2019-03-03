@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Category : ร้านคาเฟ่</title>
+</head>
+<body>
+<center><h1>ร้านอาหารตามสั่ง</h1></center>
+    <center>
+    <h3>
+        <a href="/category/a_la_cart">ร้านอาหารตามสั่ง </a>
+        <a href="/category/street_food">สตรีทฟู๊ด </a>
+        <a href="/category/cafe"> ร้านคาเฟ่</a>    </h3>
+    </center>
+    {% for item in c %}
+            <fieldset>
+                <h2>
+                    <a href="/restaurant/{{item.id}}">{{item}}
+                    </a>
+                    <br>
+                </h2>
+
+            </fieldset>
+    {% endfor %}
+</body>
+</html>

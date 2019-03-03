@@ -35,5 +35,23 @@ def result (request):
 def show_restaurants (request,res_id):
     res = Restaurants.objects.get(pk=res_id)
     review = res.review_set
-    return render(request, 'foodapp/show_restaurant.html', {'res': res},{'lstreview':review})
+    context = {'res': res,'lstreview':review}
+    return render(request, 'foodapp/show_restaurant.html',context )
+
+def category (request):
+    context = {}
+    return render(request,'foodapp/category.html',context)
+
+def category_a(request):
+    a = Restaurants.objects.filter(category__startswith = 'อ')
+    context = {'a': a}
+    return render(request,'foodapp/a_la_cart.html',context)
+def category_s(request):
+    s = Restaurants.objects.filter(category__startswith  = 'ส')
+    context = {'s':s}
+    return render(request,'foodapp/street_food.html',context)
+def category_c(request):
+    c = Restaurants.objects.filter(category__startswith  = 'ค')
+    context = {'c':c}
+    return render(request,'foodapp/cafe.html',context)
 
